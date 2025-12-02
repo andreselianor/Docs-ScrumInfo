@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Scrum</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='icon' type='icon' href='./icons/icon.svg'>
+    <script src='main.js'></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        #rol {
+            display: grid;
+            grid-template-columns: 30% 70%;
+            grid-template-rows: 100%;
+            width: 400px;
+        }
+
+        #avatar {
+            grid-column: 1;
+            grid-row: 1;
+        }
+
+        #text {
+            grid-column: 2;
+            grid-row: 1;
+        }
+
+        .picture {
+            width: 50px;
+            height: 50px;
+            background-color: blueviolet;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <!-- QUE ES SCRUMM -->
+        <div id="rol">
+            <div id="avatar">
+                <img class="picture" src="./images/scrum.png">
+            </div>
+            <div id="text">
+                <p>
+                    <b>1. Qué es Scrum</b><br>
+
+                    Scrum es un marco de trabajo ágil utilizado para gestionar proyectos complejos, especialmente en el
+                    desarrollo de software. Se basa en ciclos cortos llamados sprints, que suelen durar entre 1 y 4
+                    semanas. Durante cada sprint se entrega un incremento de producto funcional, lo que permite
+                    adaptarse rápidamente a cambios y mejorar continuamente.
+                    Los pilares fundamentales de Scrum son:
+
+                    Transparencia
+
+                    Inspección
+
+                    Adaptación
+                </p>
+            </div>
+        </div>
+
+        <!-- EQUIPO DE DESARROLLADORES -->
+        <div id="rol">
+            <div id="avatar">
+                <img class="picture" src="./images/team.png">
+            </div>
+            <div id="text">
+                <p>
+                    <b>2. Equipo de desarrolladores</b><br>
+
+                    El equipo de desarrolladores es el grupo encargado de crear el incremento del producto en cada
+                    sprint. Este equipo:
+
+                    Es multidisciplinar: incluye todos los perfiles necesarios (programadores, testers, diseñadores,
+                    etc.).
+
+                    Es autoorganizado: decide cómo realizar el trabajo sin que nadie externo les diga cómo hacerlo.
+
+                    Suele tener entre 3 y 9 miembros.
+
+                    Es responsable de cumplir el Sprint Goal y de estimar el trabajo en tareas o historias de usuario.
+
+                    Su objetivo principal es entregar valor al final de cada sprint.
+                </p>
+
+                <p><b>Tareas habituales del equipo de desarrolladores:</b></p>
+                <ul>
+                    <li>Crear el incremento de producto en cada sprint.</li>
+                    <li>Estimar historias de usuario y dividirlas en tareas técnicas.</li>
+                    <li>Participar en las Daily Scrum aportando avances y bloqueos.</li>
+                    <li>Testear y asegurar la calidad del producto entregado.</li>
+                    <li>Colaborar en el refinamiento del Product Backlog.</li>
+                    <li>Diseñar soluciones técnicas y proponer mejoras.</li>
+                    <li>Autoorganizarse para cumplir con el Sprint Goal.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- PRODUCT OWNER -->
+        <div id="rol">
+            <div id="avatar">
+                <img class="picture" src="./images/po.png">
+            </div>
+            <div id="text">
+                <p>
+                    <b>3. Product Owner</b><br>
+
+                    El Product Owner (PO) es el responsable de maximizar el valor del producto y representa a los
+                    stakeholders (clientes, usuarios, negocio). Sus responsabilidades clave son:
+
+                    Gestionar el Product Backlog: crear, priorizar y refinar las historias de usuario.
+
+                    Asegurar que el equipo trabaje en lo que aporta mayor valor al producto.
+
+                    Conectar negocio y equipo técnico, respondiendo dudas y aclarando requisitos.
+
+                    Aceptar o rechazar el trabajo completado en cada sprint.
+
+                    Es un rol orientado al negocio, no técnico necesariamente.
+                </p>
+
+                <p>
+                    Se trata del representante y portavoz del grupo y enlace de contacto con el cliente. Cuando el
+                    cliente quiere comunicar alguna decision, SOLO se lo comenta al PO. El PO lo comenta con el resto
+                    del equipo. El cliente NO PUEDE COMUNICARSE CON TODO EL EQUIPO, por eso, se comunica con el PO.
+                </p>
+
+                <p><b>Tareas habituales del Product Owner:</b></p>
+                <ul>
+                    <li>Crear y priorizar las historias de usuario.</li>
+                    <li>Realizar sesiones de refinamiento junto al equipo.</li>
+                    <li>Validar y aceptar los incrementos entregados.</li>
+                    <li>Comunicar la visión del producto a todo el equipo.</li>
+                    <li>Hablar con stakeholders y recoger necesidades del negocio.</li>
+                    <li>Tomar decisiones sobre alcance, valor y prioridades.</li>
+                    <li>Mantener el Product Backlog claro y actualizado.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SCRUM MASTER -->
+        <div id="rol">
+            <div id="avatar">
+                <img class="picture" src="./images/sm.png">
+            </div>
+            <div id="text">
+                <p>
+                    <b>4. Scrum Master</b><br>
+
+                    El Scrum Master (SM) es el responsable de que Scrum se entienda y se implemente correctamente. Es un
+                    líder servicial para el equipo y no un jefe. Sus funciones principales:
+
+                    Facilitar los eventos de Scrum (daily, sprint planning, review y retrospective).
+
+                    Eliminar impedimentos que bloqueen el trabajo del equipo.
+
+                    Proteger al equipo de interrupciones externas.
+
+                    Ayudar al Product Owner y a la organización a entender la agilidad.
+
+                    Promover la mejora continua dentro del equipo.
+
+                    El Scrum Master se enfoca en garantizar que el equipo funcione de manera eficiente y en fomentar una
+                    buena cultura de trabajo.
+                </p>
+
+                <p>
+                    Es el policia del sistema Scrum. Se encarga de que se cumpla la metdologia scrum. Se encarga de las
+                    dailies, de las retro, avisa a los desarrolladores de los errores, es importante ELIMINAR LOS
+                    PROBLEMAS DEL DESARROLLO, hacer mas facil la vida del desarrollador, facilitar el proceso del
+                    proyecto, NO ES EL JEFE. Es el lider del AVANCE DEL PROYECTO. El SM NO VOTA, en caso de empate, él
+                    desempata.
+                </p>
+
+                <p><b>Tareas habituales del Scrum Master:</b></p>
+                <ul>
+                    <li>Facilitar los eventos de Scrum (Daily, Planning, Review, Retrospective).</li>
+                    <li>Eliminar impedimentos que bloqueen al equipo.</li>
+                    <li>Proteger al equipo de interrupciones externas.</li>
+                    <li>Guiar al equipo y a la organización en la adopción de Scrum.</li>
+                    <li>Fomentar la mejora continua dentro del equipo.</li>
+                    <li>Detectar y resolver conflictos dentro del equipo.</li>
+                    <li>Promover una comunicación clara entre PO, devs y stakeholders.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- EVENTOS DE SCRUM -->
+        <div id="rol">
+            <div id="avatar">
+                <img class="picture" src="./images/scrumEvents.png">
+            </div>
+            <div id="text">
+                <p>
+                    <b>5. Eventos de Scrum</b><br>
+
+                    Scrum se estructura en una serie de eventos diseñados para asegurar transparencia, inspección y
+                    adaptación
+                    durante todo el desarrollo del producto. Estos eventos permiten coordinar al equipo, revisar el
+                    avance,
+                    planificar el trabajo y mejorar de forma continua.
+                </p>
+
+                <p><b>Daily Scrum (Daily)</b><br>
+                    Reunión diaria de máximo 15 minutos donde el equipo de desarrolladores inspecciona su progreso hacia
+                    el
+                    Sprint Goal y adapta el plan para las siguientes 24 horas. No es un reporte al Scrum Master ni al
+                    PO, es un
+                    momento de sincronización interna del equipo.
+                </p>
+
+                <p><b>Sprint Planning</b><br>
+                    Evento que inicia el sprint. El equipo define qué trabajo se realizará (selección del backlog) y
+                    cómo se
+                    llevará a cabo (plan técnico). Se establece el Sprint Goal y se acuerdan las historias que entrarán
+                    al sprint.
+                </p>
+
+                <p><b>Sprint Review</b><br>
+                    Se realiza al final del sprint. El equipo muestra el incremento completado a los stakeholders. Se
+                    revisan
+                    resultados, feedback y posibles ajustes del Product Backlog. Es un evento colaborativo y orientado a
+                    inspección.
+                </p>
+
+                <p><b>Sprint Retrospective</b><br>
+                    Último evento del sprint. El equipo reflexiona sobre cómo ha trabajado: procesos, comunicación,
+                    herramientas
+                    y calidad. Se identifican mejoras y se definen acciones concretas para implementar en el siguiente
+                    sprint.
+                </p>
+            </div>
+        </div>
+
+        <!-- HISTORIAS DE USUARIO -->
+        <div id="rol">
+            <div id="avatar">
+                <img class="picture" src="./images/userStories.png">
+            </div>
+            <div id="text">
+                <p>
+                    <b>6. Ejemplos de Historias de Usuario</b><br>
+
+                    Las historias de usuario representan pequeñas piezas de valor que un usuario o cliente necesita.
+                    Siguen normalmente el formato: <i>'Como [tipo de usuario], quiero realizar [acción], para lograr
+                        [objetivo]'.</i>
+                    A continuación se muestran algunos ejemplos comunes en proyectos de software.
+                </p>
+
+                <ul>
+                    <li>
+                        <b>Como</b> usuario registrado, <b>quiero</b> iniciar sesión con mi correo y contraseña,
+                        <b>para</b> acceder a mi cuenta personal.
+                    </li>
+                    <li>
+                        <b>Como</b> administrador, <b>quiero</b> poder ver un listado de todos los usuarios,
+                        <b>para</b> gestionar permisos y roles.
+                    </li>
+                    <li>
+                        <b>Como</b> comprador, <b>quiero</b> añadir productos al carrito,
+                        <b>para</b> poder hacer una compra más adelante.
+                    </li>
+                    <li>
+                        <b>Como</b> usuario móvil, <b>quiero</b> que la interfaz se adapte a mi pantalla,
+                        <b>para</b> usar la aplicación cómodamente desde mi teléfono.
+                    </li>
+                    <li>
+                        <b>Como</b> cliente, <b>quiero</b> recibir notificaciones cuando mi pedido cambie de estado,
+                        <b>para</b> saber en todo momento dónde se encuentra.
+                    </li>
+                    <li>
+                        <b>Como</b> usuario nuevo, <b>quiero</b> ver una guía rápida la primera vez que entro,
+                        <b>para</b> entender mejor cómo usar la aplicación.
+                    </li>
+                    <li>
+                        <b>Como</b> analista, <b>quiero</b> exportar los datos en formato CSV,
+                        <b>para</b> poder procesarlos en mis herramientas externas.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
